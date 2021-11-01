@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+header{
+    border:1px solid;
+}
+header h1{
+    border:1px solid;
+}
+header ul{
+    border:1px solid;
+    float right;
+    background-color:brown;
+    color:black;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+}
+.home{
+    height: 90vh;
+    border: 1px solid;
+    background-image: url(mabna.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.home h2{
+    color:brown;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid brown
+}
+section{
+    padding: 50px 0;
+}
+.content1{
+    display:flex;
+}
+.content2{
+    display:flex;
+}
+.content3{
+    display:flex;
+}
+.content4{
+    display:flex;
+}
+.main-content{
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    background-color:white;
+    height: 40vh;
+}
+.sidebar{
+    border: 1px solid;
+    width: 50%;
+    padding-top: 50px;
+    background-color:whitesmoke;
+    height: 40vh;
+}
+.sidebar h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sidebar p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+img.kitab{
+    align-items: center;
+    display: block;
+}
+.contact{
+    background-color: brown;
+}
+.qoute{
+    text-align: center;
+    padding-top: 0;
+    background-color:brown;
+}
+footer{
+    text-align: center;
+    background-color: slategrey;
+    margin: 10px;
+    padding: 30px;
+}
